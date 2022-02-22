@@ -355,6 +355,13 @@ a {
   color: rgb(119, 119, 119);
 }
 
-.product-related{
-  
+.product-related {
+}
+
+.faq {
+  margin-top: 80px;
+}
+
+.list-group-item P {
+  color: rgb(119, 119, 119);
 }
