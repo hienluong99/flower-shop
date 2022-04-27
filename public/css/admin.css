@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+    bottom: .5em;
+}
+
+.rightside-header img {
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.avatar-md {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.menu-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #555;
+    padding: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.menuitem-active {
+    font-size: 14px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.fas {
+    margin-right: 10px;
+}
+
+/* .card{
+    background-image: linear-gradient(45deg, #3c12bd, #0863be);
+} */
+
+.card-body .fad {
+    color: rgb(163, 212, 163);
+    font-size: 48px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.card-content {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.avatar-lg {
+    height: 4.5rem;
+    width: 4.5rem;
+}
+
+.avatar-lg img {
+    height: 72px;
+    width: 100%;
+}
+
+.widget-user {
+    padding-bottom: 10px;
+}
+
+.action-btn {
+    margin-left: 10px;
+}
+
+.card-box {
+    color: white;
+    background-color: #0c1a32;
+}
+
+.box-body {
+    padding: 10px;
+}
+
+.footer-card {
+    font-size: 50px;
+}
+
+
+@media screen and (max-width: 1300px) {}

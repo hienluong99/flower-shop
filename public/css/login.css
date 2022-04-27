@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap");
+
+.login-wrapper {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(135deg,
+            rgba(34, 193, 195, 1) 0%,
+            rgba(253, 187, 45, 1) 100%);
+    font-family: "work sans";
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    right: 30%;
+    top: 20%;
+    max-width: 500px;
+    min-width: 400px;
+    max-height: 700px;
+  min-height: 500px;
+    width: 30%;
+    height: 60%;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.login-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.login-input {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login-input input {}
+
+.btn {
+    border-radius: 14px;
+    background: linear-gradient(135deg,
+            rgba(34, 193, 195, 1) 0%,
+            rgba(253, 187, 45, 1) 100%);
+    border: none;
+    width: 100%;
+    outline: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background: linear-gradient(135deg,
+            rgba(34, 193, 195, 0.7) 0%,
+            rgba(253, 187, 45, 0.7) 100%);
+}
